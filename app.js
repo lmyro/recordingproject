@@ -1,3 +1,4 @@
+//declare variables
 const menu = document.querySelector('#mobile-menu');
 const menuLinks = document.querySelector('.navbar__menu');
 const navLogo = document.querySelector('#navbar__logo');
@@ -10,7 +11,7 @@ const mobileMenu = () => {
 
 menu.addEventListener('click', mobileMenu);
 
-// Show active menu in portions of page
+// If-Else to show active menu in portions of page
 const highlightMenu = () => {
   const elem = document.querySelector('.highlight');
   const homeMenu = document.querySelector('#home-page');
@@ -20,7 +21,7 @@ const highlightMenu = () => {
   let scrollPos = window.scrollY;
   // console.log(scrollPos);
 
-  // adds 'highlight' class to my menu items
+  // adds 'highlight' class to my menu items based on positional index
   if (window.innerWidth > 960 && scrollPos < 600) {
     homeMenu.classList.add('highlight');
     aboutMenu.classList.remove('highlight');
@@ -52,32 +53,16 @@ const hideMobileMenu = () => {
     menuLinks.classList.remove('active');
   }
 };
-
+//minimise mobile menu
 menuLinks.addEventListener('click', hideMobileMenu);
 navLogo.addEventListener('click', hideMobileMenu);
 
+//checks form
 function checkForm(){
     var myform = document.getElementById("formValid");
     return check(myform.elements);
   }
-  function check(eles){
-    var ele;
-    for(var i = 0;i<eles.length;i++){
-      ele = eles[i];
-      if(ele.nodeName == "SELECT"){
-        if(!ele.selectedIndex){
-          alert(" Please select province ");
-          return false;
-        }
-      }else if(ele.name){
-        if(!ele.checkValidity()){
-          ele.focus();
-          return false;
-        }
-      }
-    }
-    return true;
-  }
+//target images for 'pop-up' image effect
   var img = document.getElementsByTagName("img");
   var intros = document.getElementsByClassName("intros");
   
