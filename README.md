@@ -1,7 +1,7 @@
-# recordingproject
+# Recording Project
 
-# Website Prototype for a conceptualised not-for-profit recording studio based in Ireland.
+Website Prototype for a conceptualised not-for-profit recording studio based in Ireland.
 
-# Fulfilled using HTML, CSS & JS
+Fulfilled using HTML, CSS & JS
 
-# College Project- WebDev
+College Project- WebDev
