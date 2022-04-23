@@ -90,16 +90,4 @@ function checkForm(){
       })(i);
   }
   
-//hiding & displaying images
-var s;
-function show_hide()
-{
-if(s==1)
-{
-Document/getElementById(“soule”).style.display=“inline”;
-Return s=0;
-}
-else{
-Document.getElementById(“image”).style.display=none”;
-Return a=1;
-}
+
