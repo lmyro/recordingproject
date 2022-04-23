@@ -199,14 +199,14 @@
   }
 }
 
-/* Hero Section */
-.hero {
+/* Home Section */
+.home {
   background: #000000;
   background: linear-gradient(to right, #161616, #000000);
   padding: 0px 0;
 }
 
-.hero__container {
+.home__container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -218,17 +218,17 @@
   padding: 80px;
 }
 
-.hero__heading {
+.home__heading {
   font-size: 80px;
   margin-bottom: 50px;
   color: #fff;
 }
 
-.hero__heading span {
+.home__heading span {
   
   background: #f79d00;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #64f38c, #f79d00);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #64f38c, #f79d00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: -webkit-linear-gradient(to right, #64f38c, #f79d00);  /* Chrome , Safari  */
+  background: linear-gradient(to right, #64f38c, #f79d00); /* W3C, Edge, Firefox , Chrome 26+, Opera, Safari 7+ */
   
   background-size: 100%;
   -webkit-background-clip: text;
@@ -237,26 +237,19 @@
   -mo-text-fill-color: transparent;
 }
 
-.hero__description {
+.home__description {
   font-size: 60px;
-  background: #da22ff; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #9114ff,
-    #da22ff
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #8f0eff,
-    #da22ff
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #da22ff; /* fallback */
+  background: -webkit-linear-gradient( to right, #9114ff, #da22ff); /* Chrome , Safari  */
+  background: linear-gradient(to right, #8f0eff, #da22ff ); /* W3C, Edge, Firefox , Chrome 26+, Opera, Safari 7+ */
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
 }
-.hero img{
+.
+img{
     height:700px;
     width:100%
  
@@ -264,11 +257,11 @@
 
 
 @media screen and (max-width: 768px) {
-  .hero__heading {
+  .home__heading {
     font-size: 60px;
   }
 
-  .hero__description {
+  .home__description {
     font-size: 40px;
   }
 }
@@ -312,8 +305,7 @@
 
 .main__content h2 {
   font-size: 1.5rem;
-  background: rgb(241, 193, 160);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: rgb(241, 193, 160); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
