@@ -2,7 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0 ;
-  font-family: 'Kumbh Sans', sans-serif;
+  font-family: 'Kostas Bartsokas', sans-serif;
   scroll-behavior: smooth;
 }
 
@@ -598,7 +598,6 @@ img{
 
 }
 
-
 fieldset{
     border: 0;
     width:450px;  
@@ -626,7 +625,7 @@ fieldset{
     font-size: 2.5rem;
 }
  ::placeholder{
-      font-family: 'Kumbh Sans', sans-serif;
+      font-family: 'Kostas Bartsokas', sans-serif;
   }
   .form-group{
       padding:0px;
