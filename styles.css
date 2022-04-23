@@ -401,13 +401,8 @@
 
 }
 
-#card--2 {
-    
-   
 
-}
-
-/* Mobile Responsive */
+/* Mobile Response */
 @media screen and (max-width: 1100px) {
   .main__container{
     display: grid;
@@ -425,9 +420,7 @@
     height: auto;
 
   }
-
-  }
-
+}
   .main__img--card {
     padding-bottom: 40px;
   }
@@ -525,20 +518,10 @@
     width:350px;
 }
 
-/*.clients__card:nth-child(2) {
-  
-
-}
-
-.clients__card:nth-child(3) {
-
-}*/
-
-.clients__card h2 {
+.clients h2 {
   text-align: center;
+  color: rgb(207, 168, 58);
 }
-
-
 
 .clients__btn {
   display: flex;
@@ -600,25 +583,18 @@
     margin-right: auto;
     padding:15px;
     border:solid 5px rgb(151, 114, 79);
-    
     display: flex;
     align-items: center;
     cursor: pointer;
     text-decoration: none;
     font-size: 2rem
 }
-
-
-
-
 .website__rights {
   color: #fff;
-  padding: 15px;
-  
+  padding: 15px;  
 }
 
 @media screen and (max-width: 820px) {
-
 
   #footer__logo {
     margin-bottom: 2rem;
@@ -627,7 +603,6 @@
   .website__rights {
     margin-bottom: 2rem;
   }
-
 
 }
 
